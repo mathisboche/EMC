@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sources pour l'émission sur le chômage et la précarité</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
             text-align: center;
         }
         .container {
-            max-width: 600px;
-            margin: auto;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-            background-color: white;
-            border-radius: 8px;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         h1 {
-            font-size: 24px;
             color: #333;
-            margin-bottom: 30px;
+            font-size: 1.5em;
+            margin-bottom: 20px;
         }
         .btn {
-            display: block;
+            display: inline-block;
             width: 90%;
-            background-color: #4caf50;
-            color: white;
-            padding: 15px 20px;
-            margin: 10px auto;
-            border: none;
-            border-radius: 4px;
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px;
+            margin: 10px 0;
             text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s, box-shadow 0.3s;
+            font-size: 1.2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s ease;
         }
         .btn:hover {
-            background-color: #45a049;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background-color: #0056b3;
+        }
+        @media screen and (min-width: 600px) {
+            .btn {
+                width: 60%;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Sources pour l'émission sur le chômage et la précarité</h1>
-        <a href="https://www.insee.fr/fr/statistiques/5395877?sommaire=5395939" class="btn" target="_blank">INSEE - Taux de chômage au 3e trimestre 2023</a>
-        <a href="https://www.insee.fr/fr/statistiques/7713975" class="btn" target="_blank">INSEE - Augmentation du nombre de chômeurs</a>
-        <a href="https://www.insee.fr/fr/statistiques/7619798" class="btn" target="_blank">INSEE - Situation de sous-emploi au premier trimestre 2023</a>
-        <a href="https://www.liberation.fr/economie/social/le-chomage-en-france-repart-a-la-hausse-a-74-au-troisieme-trimestre-20231115_6U3HXFRPSFHQVBJKC4EVKBA77Q/" class="btn" target="_blank">Libération - Taux de chômage des jeunes</a>
+        <a href="https://www.insee.fr/fr/statistiques/4805248#:~:text=Lecture%20%3A%20au%203%20e,Source%20%3A%20Insee%2C%20enqu%C3%AAtes%20Emploi" class="btn" target="_blank">INSEE - Taux de chômage au 3e trimestre 2023</a>
+        <a href="https://www.insee.fr/fr/statistiques/7713975#:~:text=Au%20troisi%C3%A8me%20trimestre%202023%2C%20le,hors%20Mayotte" class="btn" target="_blank">INSEE - Augmentation du nombre de chômeurs</a>
+        <a href="https://www.insee.fr/fr/statistiques/7619798#:~:text=Au%20premier%20trimestre%202023%2C%204%2C4,son%20niveau%20de%20fin%202019" class="btn" target="_blank">INSEE - Situation de sous-emploi au premier trimestre 2023</a>
+        <a href="https://www.liberation.fr/economie/social/le-chomage-en-france-repart-a-la-hausse-a-74-au-troisieme-trimestre-20231115_6U3HXFRPSFHQVBJKC4EVKBA77Q/#:~:text=Le%20taux%20de%20ch%C3%B4mage%20des,0%2C1" class="btn" target="_blank">Libération - Taux de chômage des jeunes</a>
         <a href="https://www.secours-catholique.org/m-informer/nos-positions/notre-etat-de-la-pauvrete-en-france-2023" class="btn" target="_blank">Secours Catholique - État de la pauvreté en France 2023</a>
     </div>
 </body>
